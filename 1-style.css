@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #f4c4d0;
+    color: white;
+}
+
+.primary-button {
+    background-color: #a42153;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px 2px;
+    transition: 0.2s ease-out;
+    text-align: center;
+}
+/* nav bar  */
+.flex {
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 100%;
+}
+.main-nav {
+    justify-content: space-between;
+    margin: 0px;
+    position: relative;
+    padding-top: 20px;
+    background-color: #a42153;
+}
+.nav-links {
+    flex-basis: 730px;
+}
+
+.nav-links ul {
+    justify-content: end;
+    gap: 40px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+li{
+    padding: 5px;
+}
+.company-logo{
+    padding: 10px 20px;
+    text-decoration: underline;
+}
+/* header */
+.title{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: double;
+    margin: 20px auto;
+    color: #a42150;
+}
+/* rehal section */
+.rehal{
+    flex-direction: rows;
+    justify-content: space-evenly;
+}
+.image{
+    border: 4px double #a42150;
+    margin: auto 50px;
+}
+.image img{
+    width: 350px;
+    padding: 10px;
+}
+.desp h3{
+    color: #a42150;
+    font-size: 32px;
+    padding: 30px;
+    text-decoration: underline;
+}
+
+.desp{
+    text-align: center;
+    margin: 20px;    
+    color: #a42153;
+    font-size: 22px;
+}
+.desp .jel h3{
+    margin: 0px;
+   
+}
+/* gallery */
+.stand img{
+    height: 300px;
+    width: 240px;
+    margin: 20px;
+    border: 2px solid #a42150;
+    padding: 10px;
+   
+}
+.reh-gallery{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 0px 20px;
+}
+.stand{
+    flex-direction: column;
+}
+
+/* footer section */
+.bos-1 img{
+    height: 150px;
+}
+.footer{
+    background-color: #a42153;
+    justify-content: space-evenly;
+}
+.salik{
+    margin: 40px;
+}
+.bos-3{
+    padding: 10px;
+}
+.links{
+    color: white;
+}
+i{
+    padding: 4px;
+}
+/* sub-footer */
+.sub-footer{
+    background-color: #a42150;
+    border: 5px double #cb8fa6;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-evenly;
+}
+.last{
+    justify-content: space-evenly;
+}
+.misbah h4 a{
+    padding: 20px;
+}
+
+
+
+
